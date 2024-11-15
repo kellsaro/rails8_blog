@@ -1,6 +1,4 @@
 class CommentsController < ApplicationController
-  belongs_to :post
-
   before_action :set_post
 
   def create
